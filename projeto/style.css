@@ -1,0 +1,38 @@
+
+/* Estilos para a navbar lateral */
+.sidenav {
+  height: 100%; /* Altura da navbar lateral: 100% da página */
+  width: 0; /* Largura inicial: 0 (oculta) */
+  position: fixed; /* Fixa a navbar na lateral */
+  z-index: 1; /* Coloca a navbar acima de outros elementos */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Cor de fundo da navbar */
+  overflow-x: hidden; /* Desabilita o scroll horizontal */
+  transition: 0.5s; /* Transição suave ao abrir e fechar */
+  padding-top: 60px; /* Espaço no topo da navbar */
+}
+
+/* Links na navbar lateral */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Alteração de cor ao passar o mouse sobre os links */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Botão para fechar a navbar lateral */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
